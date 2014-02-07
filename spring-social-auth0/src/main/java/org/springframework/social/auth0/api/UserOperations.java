@@ -1,5 +1,5 @@
 /*
- * Copyright 2011 the original author or authors.
+ * Copyright 2013 the original author or authors.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -13,8 +13,22 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+package org.springframework.social.auth0.api;
 
-rootProject.name = 'spring-social-auth0'
+import java.util.List;
 
-include 'docs'
-include 'spring-social-auth0'
+/**
+ * Interface defining the operations for working with Auth0 users.
+ * 
+ */
+public interface UserOperations {
+
+	/**
+	 * Retrieves the user's Auth0 profile details.
+	 * 
+	 * @return the user's Auth0 profile
+	 */
+	Auth0UserProfile getUserProfile();
+
+}
+

@@ -91,8 +91,8 @@ configure(subprojects) { subproject ->
     }
 }
 
-project('spring-social-github') {
-    description = 'Github API'
+project('spring-social-auth0') {
+    description = 'Auth0 API'
     dependencies {
        compile "org.springframework.social:spring-social-core:$springSocialVersion"
        compile ("org.springframework.social:spring-social-config:$springSocialVersion")
@@ -106,7 +106,7 @@ project('spring-social-github') {
 }
 
 configure(rootProject) {
-    description = 'Spring Social GitHub'
+    description = 'Spring Social Auth0'
 
     apply plugin: 'docbook-reference'
 

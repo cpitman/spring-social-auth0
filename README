@@ -1,8 +1,8 @@
-============================= Spring Social GitHub ============================
+============================= Spring Social Auth 0 ============================
 To check out the project and build from source, do the following:
 
- git clone git://github.com/SpringSource/spring-social-github.git
- cd spring-social-github
+ git clone git://github.com/SpringSource/spring-social-auth0.git
+ cd spring-social-auth0
  ./gradlew build
 
 -------------------------------------------------------------------------------

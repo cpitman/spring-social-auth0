@@ -1,0 +1,20 @@
+{
+  "email": "johnfoo@gmail.com",
+  "family_name": "Foo",
+  "gender": "male",
+  "given_name": "John",
+  "identities": [
+    {
+      "access_token": "ya29.AsaS6ZQgRHlCHqzZ3....sFFBpQYpVVieSWur-7tmZbzEtwMkA",
+      "provider": "google-oauth2",
+      "user_id": "103547991597142817347",
+      "connection": "google-oauth2",
+      "isSocial": true
+    }
+  ],
+  "locale": "en",
+  "name": "John Foo",
+  "nickname": "matiasw",
+  "picture": "https://lh4.googleusercontent.com/-OdsbOXom9qE/AAAAAAAAAAI/AAAAAAAAADU/_j8SzYTOJ4I/photo.jpg",
+  "user_id": "google-oauth2|103547991597142817347"
+}
